@@ -39,6 +39,12 @@
       echo "<a class = \"active\" ><i class=\"fa fa-barcode\" ></i ></a >";
     }
 
+    if ($active != "enviarEmail") {
+      echo "<a href = \"enviarEmail.html\" ><i class=\"fa fa-at\" ></i ></a >";
+    } else {
+      echo "<a class = \"active\" ><i class=\"fa fa-at\" ></i ></a >";
+    }
+
     if ($active != "logout") {
 	    echo "<a href = \"logout.php\" ><i class=\"fa fa-power-off\" ></i ></a >";
     } else {
